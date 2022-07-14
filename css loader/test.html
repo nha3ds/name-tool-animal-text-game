@@ -1,0 +1,36 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+        function changeStyle(style)
+        {
+            document.body.className = style
+        }
+    </script>
+</head>
+
+<body class = "outer_style1">
+    <div>Hello World</div>
+    <div class = "style1" style="width: fit-content;"> 
+        <button class = "style_button" onclick="changeStyle('outer_style1')">Style1</button>
+    </div>
+    <div class = "style2"  style="width: fit-content;"> 
+        <button  class = "style_button" onclick="changeStyle('outer_style2')">Style2</button>
+        </div>
+    </div>
+    <div>
+    <div class = "style1" style="width: fit-content;"> 
+            <div>
+            <button class = "style_button" onclick="changeStyle('outer_style1')">Style1</button>
+        </div>
+        </div>
+       
+        <div class = "style2"  style="width: fit-content;"> 
+                <div><div><div><div><button  class = "style_button" onclick="changeStyle('outer_style2')">Style2</button></div></div></div></div>
+            
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

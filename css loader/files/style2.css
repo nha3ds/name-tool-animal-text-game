@@ -1,0 +1,14 @@
+ 
+ body{
+     background-color: rgb(164, 179, 29);
+     color: burlywood;
+ }
+
+ .style_button {
+
+    width: 200px;
+    height: 50px;
+    background-color: rgb(226, 149, 34);
+    color: rgb(241, 45, 127);
+
+ }

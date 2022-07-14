@@ -1,0 +1,14 @@
+ 
+ body{
+     background-color: rgb(230, 161, 212);
+     color: crimson;
+ }
+
+ .style_button {
+
+    width: 200px;
+    height: 50px;
+    background-color: rgb(148, 233, 233);
+    color: blueviolet;
+
+ }

@@ -1,0 +1,21 @@
+{
+  "name": "arapean",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "ctest": "nyc mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "mocha": "^7.0.1",
+    "nyc": "^15.0.0"
+  },
+  "devDependencies": {
+    "supertest": "^4.0.2"
+  }
+}

@@ -1,0 +1,11 @@
+require('./tests/test_fileOperations');
+require('./tests/test_css');
+require('./tests/test_language');
+require('./tests/test_rulesCollection');
+require('./tests/test_rulesInterpreter');
+require('./tests/test_rulesFlowController');
+require('./tests/test_cssController');
+require('./tests/test_gameFlowOperations');
+require('./tests/test_gameValidator');
+require('./tests/test_gameLoader');
+require('./tests/test_server');

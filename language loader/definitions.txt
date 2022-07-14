@@ -1,0 +1,1 @@
+lang,defaultGame,title,player,ready

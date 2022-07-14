@@ -1,0 +1,6 @@
+[
+    {"selector":"body","importance":"necessary"},
+    {"selector":".style_button","importance":"necessary"},
+    {"selector":".ready_button","importance":"defualt"},
+    {"selector":".finish_button","importance":"optional"}
+]
